@@ -87,7 +87,8 @@ task buildApkPlugin {
             return
         }
         buildApkPluginForAbi(pluginProjectDir, 'armeabi-v7a')
-        buildApkPluginForAbi(pluginProjectDir, 'x86')
+        buildApkPluginForAbi(pluginProjectDir, 'x86_64')
+        buildApkPluginForAbi(pluginProjectDir, 'arm64-v8a')
     }
 }
 
