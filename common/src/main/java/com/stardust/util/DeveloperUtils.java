@@ -151,7 +151,7 @@ public class DeveloperUtils {
     }
 
     public static void verifyApk(Activity activity, final int crcRes) {
-        final WeakReference<Activity> activityWeakReference = new WeakReference<>(activity);
+        /*final WeakReference<Activity> activityWeakReference = new WeakReference<>(activity);
         sExecutor.execute(new Runnable() {
             @Override
             public void run() {
@@ -168,7 +168,7 @@ public class DeveloperUtils {
                 //}
 
             }
-        });
+        });*/
     }
 
     private static long[] readCrc(String crcStr) {
